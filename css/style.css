@@ -1,0 +1,81 @@
+body, html {
+	margin: 0px;
+	padding: 0px;
+}
+img, embed, video {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.header {
+	border-bottom: 3px solid #7d97ad;
+	color: #2d3c49;
+	height: 100px;
+	margin: 0px;
+	margin-bottom: 15px;
+	overflow: hidden;
+	width: 100%;
+}
+
+#logo {
+	float: left;
+	height: 50%;
+	margin-left: 10px;
+	margin-top: 25px;
+}
+
+#name {
+	font-family: "Calibri Light", "Courier", monospace;
+	font-size: 2.5em;
+	font-weight: lighter;
+	margin-bottom: 0px;
+	margin-right: 5px;
+	margin-top: 20px;
+	text-align: right;
+}
+
+#title {
+	font-family: "Calibri", "Courier", monospace;
+	font-size: 1em;
+	margin-right: 5px;
+	margin-top: 0px;
+	text-align: right;
+}
+
+#feature {
+	color: #7d97ad;
+	font-family: "Calibri Light", "Courier", monospace;
+	font-size: 1.5em;
+	margin-bottom: 0px;
+	margin-left: 5%;
+	margin-top: 20px;
+}
+
+.container {
+	align-items: center;
+	color: #2d3c49;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 1%;
+}
+
+.container h2 {
+	font-family: "Calibri", serif;
+	font-weight: normal;
+	font-size: 2em;
+	margin: 0px;
+}
+
+.container p {
+	font-family: "Arial", serif;
+	font-weight: normal;
+	font-size: 0.75em;
+	margin: 0px;
+}
+
+.box {
+	margin: 1% 1% 5% 1%;
+	max-width: 250px;
+	text-align: center;
+}
